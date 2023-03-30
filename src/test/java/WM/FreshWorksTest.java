@@ -75,7 +75,7 @@ public class FreshWorksTest {
 //		List<WebElement> footerLinksList = driver.findElements(By.cssSelector("ul.footer-nav li a"));
 //		footerLinksList.forEach(ele -> System.out.println(ele.getText()));
 //		assertEquals(footerLinksList.size(), 35);
-		System.out.println("Done with trigger");
+		System.out.println("Done with trigge");
 	}
 
 	@AfterMethod
