@@ -5,19 +5,8 @@
 	thread-count="1" parallel="tests">
 
 	<test name="Freshworks - Chrome test">
-		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="WM.FreshWorksTest" />
+			<class name="WM.DockerWithChrome" />
 		</classes>
 	</test>
-
-	<test name="Freshworks - Firefox test">
-		<parameter name="browser" value="firefox" />
-		<classes>
-			<class name="WM.FreshWorksTest" />
-		</classes>
-	</test>
-
-
-
 </suite>
